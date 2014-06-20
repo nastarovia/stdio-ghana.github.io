@@ -1,8 +1,8 @@
 ---
 layout: blurb
-name: Raymo EJ
+name: Raymond Eduful
 affiliation: University of Ghana
-github: atom
+github: raymoej
 year: 2014
 imagetype: jpg
 ---
