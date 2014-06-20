@@ -1,0 +1,26 @@
+Course content
+    Overview
+    Python Variables and Functions, the Basics
+    Development Tools
+    Flow Control
+    Software Requirements
+    Python Variables and Functions, the Not-so-Basics
+    Testing
+    Debugging
+    Python OOP
+    Best Practices
+    Effective OOP
+    Python IO
+    Reuse
+    User Interfaces
+    Python + C++
+    Distributed Computing
+    Parallel Python
+    Warmups
+    Open Session: Databases
+    Open Session: Debugging and Multifile Projects
+    Open Session: Libraries II
+    
+Logistics
+    Pre departure
+    Post departure
