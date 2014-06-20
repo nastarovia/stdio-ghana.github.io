@@ -1,8 +1,8 @@
 ---
 layout: blurb
-name: Demo Student
+name: Andy Bubune Amewuda
 affiliation: University of Ghana
-github: atom
+github: andybubune
 year: 2014
 ---
-The demo student!
+Hey am Andy and I love programming
