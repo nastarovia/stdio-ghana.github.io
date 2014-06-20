@@ -1,6 +1,6 @@
 ---
 layout: blurb
-name: Tony
+name: OPIAH-MENSAH ANTHONY
 affiliationStud: University of Ghana
 github: atom
 year: 2014
