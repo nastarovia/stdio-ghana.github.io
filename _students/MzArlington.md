@@ -2,7 +2,6 @@
 layout: blurb
 name: Samantha Naa A. Tetteh
 affiliation: University of Ghana
-github: atom
 year: 2014
 imagetype: jpg
 github: MzArlington
