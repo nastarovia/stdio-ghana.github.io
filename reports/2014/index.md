@@ -2,19 +2,7 @@
 layout: section
 ---
 
-- lodging students in residence hall: appears to improve attendance / attrition
-- otoh, lodging the instructors there as well doesn't seem to be the right
-choice; less reliable infrastructure has made it difficult to do evening support
-work.
-- getting lab space configured was very difficult, lab machines still have
-incomplete network access.
-- many more students than anticipated; course requires lots of individual
-attention
-- using the vm images was definitely the right approach.  HOWEVER, need to pay
-more attention to making the right image.  For example, should have put our
-program icons on task bar (and removed inane ones), double checked all the
-activities for installation of proper libraries, disabled updates (maybe; alt:
-found way to locally distribute any updates that came up during course)
+# DRAFT AS OF 13 JUL 14
 
 ##Summary
 
@@ -118,8 +106,8 @@ regularly and directly, both in the classroom and at the social events.
 
 There were a few notable issues.
 
-The students were very positive about the socratic style of the course, though
-they found initially difficult.  One of the take-aways from the pilot course was
+The students were very positive about the style of the course, though
+they found it initially difficult.  One of the take-aways from the pilot course was
 that this mode was very unfamiliar to students.  This year, we also learned
 based on discussion with both students and faculty that many computer science
 courses *do not involve programming*.  Some students even claimed to have
@@ -166,62 +154,46 @@ them to appreciate.
 
 ##Summary Conclusions from Feedback & Observations
 
-- Narrow down on languages: while the exposure to several languages was listed as a positive aspect of
-the course, it was particularly overwhelming for the students with limited background. Picking a particular
-language will allow instructors to focus more on the engineering questions, rather than the programming
-questions.
-- Pre-screen for projects: students were initially positive about the opportunity to do whatever they
-wanted, but were rapidly discouraged by the scope of the challenges. They indicated a preference for
-projects that were real (vice toy homework problems), but more bite size and with a well-defined ultimately
-deliverable.
-- Improve logistical support: The biggest hurdle for many of the students was simply being able to
-participate in class, or for their partners to be able to participate in class. We also experienced
-difficulties with the software configuration on the machines.
+TODO
 
-Students are, in general, not ready for direct support of the ONR funder's desired projects as part of
-this course, or even for coursework tailored toward that direct support. What they need is to have general
-perspective (e.g., how to work as developer, both independently and as part of a team) motivated by a practical,
-but introductory project. However, several students were paired with researchers at U. of Ghana after the
-course and are undertaking projects this coming academic year.
+notes:
 
-##Plan for FY14
+- lodging students in residence hall: appears to improve attendance / attrition
+- otoh, lodging the instructors there as well doesn't seem to be the right
+choice; less reliable infrastructure has made it difficult to do evening support
+work.
+- getting lab space configured was very difficult, lab machines still have
+incomplete network access.
+- many more students than anticipated; course requires lots of individual
+attention, so this proved problematic
+- using the vm images was definitely the right approach.  HOWEVER, need to pay
+more attention to making the right image.  For example, should have put our
+program icons on task bar (and removed inane ones), double checked all the
+activities for installation of proper libraries, disabled updates (maybe; alt:
+found way to locally distribute any updates that came up during course)
 
-All of the original personnel are planning to be available for the course in summer 2014.
+##Plan for FY15
 
-We are revamping the course material to de-emphasize the wide diversity of languages (though we plan
-to keep a session on matching programming to task). We have preliminarily selected Python as the focus
-language, as it has a small learning curve, straightforwardly motivates all of the engineering topics, and
-is a common language for initial development in scientific and engineering applications.
+Go to AIMS instead.  Focus more on scientific projects -- prescreen from AIMS
+student projects needing some pipeline work / coordination with other tools?
+Plan will be to admit a few students each from AIMS partner institutions --
+preference for 3rd year, experience with Python.  Base admission on ability to
+complete some initial exam. Since these admissions will be to AIMS from those
+institutes, rather from them to them, should reduce strange application issues.
 
-We are addressing the logistical issues by identifying on-campus housing and funding for students.
-We are also going to pre-produce an installation image with all necessary software for the course
-pre-configured.
+Course material will be adjusted to reduce Python basics, since that will be covered
+for AIMS students, and can be specified as pre-req for admitted students.  First
+few days review code basics with \"simple\" problem -- all the engineering work
+done, just in need of filling in implementation.
 
-We hope to bring US undergraduates this year. We expect those students to generally have a better
-handle on working independently, and to diffuse that trait to the Ghanaian students. We think the US students
-will benefit from practical experience with an developing market.
+Aim for 3 weeks?
+
+Still want to bring US students.  Try to coordinate with UF math department?
 
 ##Specific Session Revisions
 
 We plan to revise the language sessions in the following way:
 
-- Keep Command Line Interfaces session, but change the context to be using Python from the command
-line and in conjunction with other command line tools
-- Keep the HTML+JS session, but focused on as a frontend to some Python tool
-- Keep GIS session, but with a focus on using it in conjunction with Python
-- the Java / JVM languages and R / Octave will dropped entirely
-- the Python session will expand into 3 sessions: basic syntax, IO, and advanced syntax
-- the C/C++ session will be heavily modified to focus on Python to C/C++ bindings
-- The tools session will be focused on applying the tools with Python as the language (e.g., PyDev plugin Eclipse)
-- Architecture will focus on how Python presents on these various platforms, and how to integrate them via Python
-- OOP+TDD will take on a Python-oriented flavor. Specially address how OOP "works" (and sometimes doesn't) with a
-dynamic language, and discuss best practices with a unit testing framework (probably PyUnit, possibly
-alternative from [this list](https://wiki.python.org/moin/PythonTestingToolsTaxonomy))
-- Using existing code will re-orient to focus on the Python standard library (how to use the docs for it, e.g.)
-and Python eggs
-- Serialization will remain largely the same, but will include Python-specific read-write exercises
-for databases (plan for SQLite), flat files both binary and text, and "over-the-wire"
-- For user interface, we will have a simple pre-packaged backend process and have exercises to write
-front end + glue from the command line, for the desktop, and for some mobile interface (probably in a desktop
-simulator, however)
-- For parallel processing, the examples will switch to be MPI with Python
+- AIMS requests sessions on bioinformatics + GIS + supercomputing
+- AIMS students will have known skill w/ Python, will need process to also get UG / UCC / KNUST
+students up to speed
