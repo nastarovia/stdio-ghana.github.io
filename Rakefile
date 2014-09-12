@@ -13,7 +13,7 @@ end
 desc "minimize images"
 task :minimage do
   puts "\n## Compressing images"
-  io = ImageOptim.new(:pngout => false)
+  io = ImageOptim.new(:pngout => false, :pngquant => false)
   Dir["**/*.*"].reject{ |f| f['_site/'] }.each do |file|
     case File.extname(file)
       when ".gif", ".jpg", ".jpeg", ".png"
